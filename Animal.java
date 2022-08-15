@@ -17,9 +17,10 @@ class Pig extends Animal
 }
 class Main
 {
-    public static void main(Strings[] args)
+    public static void main(String[] args)
     {
         Pig myObj = new Pig();
         myObj.animalSound();
+        myObj.sleep();
     }
 }
